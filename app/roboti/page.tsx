@@ -14,8 +14,8 @@ import {
 // =====================================================================
 const robotsData = [
   {
-    id: "titan-x",
-    name: "TITAN-X",
+    id: "gheboasa",
+    name: "GHEBOASA",
     year: "2026",
     season: "FTC #10",
     description: "Robotul de debut al echipei Ghibabyte. Proiectat pentru a fi rapid, precis și fiabil. Acest robot reprezintă mii de ore de proiectare 3D, printare și scriere de cod. Dispune de un sistem modular care permite reparații rapide direct pe terenul de joc.",
