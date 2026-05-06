@@ -86,9 +86,7 @@ export default function Home() {
             <Link href="/proiecte-3d" className="hover:text-white transition-colors flex items-center gap-1">
               <Cuboid size={16} /> Proiecte 3D
             </Link>
-            <Link href="#contact" className="holo-border px-6 py-2.5 bg-[#0a0514] text-white rounded-full font-bold hover:shadow-[0_0_30px_rgba(160,230,255,0.3)] hover:scale-105 transition-all">
-              Contact
-            </Link>
+
           </nav>
 
           {/* Mobile Menu Toggle */}
