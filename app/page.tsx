@@ -201,7 +201,7 @@ export default function Home() {
             </div>
             {/* Redus mărimea textului pentru TITAN-X pe mobil */}
             <h2 className="text-5xl sm:text-7xl md:text-9xl font-black text-white leading-none mb-4 md:mb-6 tracking-tighter">
-              TITAN<span className="holo-text">-</span>X
+              GHEBOASA
             </h2>
             <p className="text-base md:text-xl text-gray-400 mb-8 md:mb-10 leading-relaxed font-light">
               Primul nostru robot, construit de la zero cu pasiune. Combină un șasiu precis cu mecanisme inovatoare concepute special pentru provocările Sezonului #10.
