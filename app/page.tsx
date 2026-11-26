@@ -135,7 +135,7 @@ export default function Home() {
               <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#dda0dd] opacity-75"></span>
               <span className="relative inline-flex rounded-full h-2 w-2 md:h-3 md:w-3 bg-[#dda0dd]"></span>
             </span>
-            <span>Debutăm în Sezonul FTC #10</span>
+            <span>Sezonul 11 FTC #BIOBUZZ</span>
           </motion.div>
 
           {/* Ajustat marimea textului pentru mobil (text-5xl) si tablete (text-7xl) */}
@@ -240,8 +240,8 @@ export default function Home() {
           {/* Lideri */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 md:gap-8 mb-16 md:mb-24">
             {[
-              { role: "Team Captain", name: "Nume Președinte", img: "P", desc: "Arhitectul viziunii noastre. Coordonează eforturile și menține echipa unită." },
-              { role: "Main Developer", name: "Nume Dev", img: "MD", desc: "Scrie codul care dă viață mașinăriilor noastre. Expert în sisteme de control." }
+              { role: "Team Captain", name: "Pepito", img: "P", desc: "Arhitectul viziunii noastre. Coordonează eforturile și menține echipa unită." },
+              { role: "Driver", name: "Sa mor eu de mai stiu cine era", img: "M", desc: "Scrie codul care dă viață mașinăriilor noastre. Expert în sisteme de control." }
             ].map((leader, i) => (
               <motion.div 
                 key={i} initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp} 
@@ -268,10 +268,10 @@ export default function Home() {
             className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-x-6 gap-y-10 md:gap-y-12"
           >
             {[
-              { role: "Mecanic Principal", name: "Membru 1" },
-              { role: "PR & Marketing", name: "Membru 2" },
-              { role: "3D Designer", name: "Membru 3" },
-              { role: "Hardware Eng", name: "Membru 4" }
+              { role: "Mecanic Principal", name: "Andrei" },
+              { role: "PR & Marketing", name: "Anna & Stefania" },
+              { role: "3D Designer", name: "Darius" },
+              { role: "Software", name: "Vlad" }
             ].map((member, i) => (
               <motion.div key={i} variants={fadeUp} className="group flex flex-col items-center text-center">
                 <div className="relative mb-4 md:mb-6">
@@ -356,7 +356,7 @@ export default function Home() {
 
         <div className="max-w-7xl mx-auto mt-12 md:mt-16 pt-8 border-t border-white/10 flex flex-col md:flex-row items-center justify-between gap-4 text-xs md:text-sm text-gray-500 font-light text-center">
           <p>© {new Date().getFullYear()} Ghibabyte. Toate drepturile rezervate.</p>
-          <p>Website coded by <a href="https://www.instagram.com/itvld.17/" target="_blank" className="font-bold tracking-wider holo-text hover:opacity-80 transition-opacity">Vlad</a></p>
+          <p>Website coded by <a href="https://morcan.ro" target="_blank" className="font-bold tracking-wider holo-text hover:opacity-80 transition-opacity">Morcan</a></p>
         </div>
       </footer>
     </main>
