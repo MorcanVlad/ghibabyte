@@ -132,7 +132,6 @@ export default function Home() {
             className="mb-6 md:mb-8 px-4 md:px-5 py-2 rounded-full border border-white/10 bg-white/5 backdrop-blur-xl inline-flex items-center gap-2 md:gap-3 text-gray-200 text-xs md:text-sm font-bold tracking-widest shadow-lg"
           >
             <span className="relative flex h-2 w-2 md:h-3 md:w-3 shrink-0">
-              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#dda0dd] opacity-75"></span>
               <span className="relative inline-flex rounded-full h-2 w-2 md:h-3 md:w-3 bg-[#dda0dd]"></span>
             </span>
             <span>Sezonul 11 FTC #BIOBUZZ</span>
@@ -201,10 +200,10 @@ export default function Home() {
             </div>
             {/* Redus mărimea textului pentru TITAN-X pe mobil */}
             <h2 className="text-5xl sm:text-7xl md:text-9xl font-black text-white leading-none mb-4 md:mb-6 tracking-tighter">
-              GHEBOASA
+              Coming Soon...
             </h2>
             <p className="text-base md:text-xl text-gray-400 mb-8 md:mb-10 leading-relaxed font-light">
-              Primul nostru robot, construit de la zero cu pasiune. Combină un șasiu precis cu mecanisme inovatoare concepute special pentru provocările Sezonului #10.
+              yes.
             </p>
             
             <Link href="/roboti" className="group flex items-center justify-center md:justify-start gap-3 w-full md:w-auto px-6 md:px-8 py-3.5 md:py-4 font-bold text-[#0a0514] rounded-full overflow-hidden transition-all hover:scale-105 holo-bg shadow-[0_0_20px_rgba(221,160,221,0.2)]">
@@ -241,7 +240,7 @@ export default function Home() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 md:gap-8 mb-16 md:mb-24">
             {[
               { role: "Team Captain", name: "Pepito", img: "P", desc: "Arhitectul viziunii noastre. Coordonează eforturile și menține echipa unită." },
-              { role: "Driver", name: "Sa mor eu de mai stiu cine era", img: "M", desc: "Scrie codul care dă viață mașinăriilor noastre. Expert în sisteme de control." }
+              { role: "Driver", name: "Sa mor eu de mai stiu cine era", img: "?", desc: "Conduce robotul cu precizie și eficiență." }
             ].map((leader, i) => (
               <motion.div 
                 key={i} initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp} 
@@ -268,10 +267,14 @@ export default function Home() {
             className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-x-6 gap-y-10 md:gap-y-12"
           >
             {[
-              { role: "Mecanic Principal", name: "Andrei" },
-              { role: "PR & Marketing", name: "Anna & Stefania" },
-              { role: "3D Designer", name: "Darius" },
-              { role: "Software", name: "Vlad" }
+              { role: "Leader Hardware", name: "Andrei" },
+              { role: "Leader 3D Design", name: "Darius" },
+              { role: "Leader PR & Marketing", name: "Anna" },
+              { role: "Leader PR & Marketing", name: "Stefania" },
+              { role: "Leader Software", name: "Mark" },
+              { role: "Software", name: "Elena" },
+              { role: "Software", name: "Vlad" },
+              { role: "Hardware", name: "Raul" },
             ].map((member, i) => (
               <motion.div key={i} variants={fadeUp} className="group flex flex-col items-center text-center">
                 <div className="relative mb-4 md:mb-6">
